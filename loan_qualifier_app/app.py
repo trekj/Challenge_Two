@@ -110,7 +110,7 @@ def save_qualifying_loans(qualifying_loans):
     """
     # @TODO: Complete the usability dialog for savings the CSV Files.
     # YOUR CODE HERE!
-
+    csvpath = Path("C:/Users/jtaga/Desktop/Challenge_Two/loan_qualifier_app/data/daily_rate_sheet.csv")
 
 def run():
     """The main function for running the script."""
