@@ -116,19 +116,20 @@ def save_qualifying_loans(qualifying_loans):
 
     save_result = questionary.confirm("Do you want to save the results?").ask()
     if save_result == True: 
-       
+        csvpath = questionary.text("Enter a filename to print the result(.csv):").ask()
+        csvpath = Path(csvpath)
 
-        output_path = Path("qual_loans.csv")    
+      
     
 
         header = ["Lender","Max Loan Amount","Max LTV","Max DTI","Min Credit Score","Interest Rate"]
         
 
-        with open(output_path, 'w', newline='') as csvfile:
+        with open(csvpath, 'w', newline='') as csvfile:
             csvwriter = csv.writer(csvfile)
             csvwriter.writerow(header)
             csvwriter.writerows(qualifying_loans)
-         
+            sys.exit(f"The result is saved in the file {csvpath}, pls check.") 
     else: 
             sys.exit("Thank you. Have a wonderful day")              
         
