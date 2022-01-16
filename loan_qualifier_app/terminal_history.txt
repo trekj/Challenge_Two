@@ -1,0 +1,15 @@
+    1  git config --global user.name "JamesT"
+    2   git config --global user.name "JamesT"
+    3  git config --global user.name > JamesT
+    4  conda activate dev
+    5  cd desktop
+    6  ls
+    7  cd Challenge_Two/
+    8  history 50 > terminal_history.txt
+    9  git add >
+   10  git add .
+   11  git commit -m " added terminal history"
+   12  git push
+   13  history 50 > terminal_history.txt
+   14  cd loan_qualifier_app/
+   15  history 50 > terminal_history.txt
