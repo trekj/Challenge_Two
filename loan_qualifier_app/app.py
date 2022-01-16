@@ -9,7 +9,9 @@ Example:
 import sys
 import fire
 import questionary
+import csv
 from pathlib import Path
+
 
 from qualifier.utils.fileio import load_csv
 
@@ -110,8 +112,26 @@ def save_qualifying_loans(qualifying_loans):
     """
     # @TODO: Complete the usability dialog for savings the CSV Files.
     # YOUR CODE HERE!
-    csvpath = Path("C:/Users/jtaga/Desktop/Challenge_Two/loan_qualifier_app/data/daily_rate_sheet.csv")
+    
 
+    save_result = questionary.confirm("Do you want to save the results?").ask()
+    if save_result == True: 
+       
+
+        output_path = Path("qual_loans.csv")    
+    
+
+        header = ["Lender","Max Loan Amount","Max LTV","Max DTI","Min Credit Score","Interest Rate"]
+        
+
+        with open(output_path, 'w', newline='') as csvfile:
+            csvwriter = csv.writer(csvfile)
+            csvwriter.writerow(header)
+            csvwriter.writerows(qualifying_loans)
+         
+    else: 
+            sys.exit("Thank you. Have a wonderful day")              
+        
 def run():
     """The main function for running the script."""
 
@@ -132,3 +152,4 @@ def run():
 
 if __name__ == "__main__":
     fire.Fire(run)
+            
