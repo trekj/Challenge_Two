@@ -1,6 +1,6 @@
 # Qualifying Loan Application
 
-This Python project is about generating qualifying reports from applicants by encoding personal finacial information through Command Line Interface, this then is being processed by comparing the encoded information against a criteria from a ratesheet from a list of lenders. An option is provided for the applicant to get a copy of the result in a spreadsheet format.
+This Python project is about generating qualifying reports from applicants by encoding personal financial information through Command Line Interface, this then is being processed by comparing the encoded information against a criteria from a rate sheet from a list of lenders. An option is provided for the applicant to get a copy of the result in a spreadsheet format.
 ____
 ## Technologies
 This project is written in ***Python 3.8*** with the following libraries:
