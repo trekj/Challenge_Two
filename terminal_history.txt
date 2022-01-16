@@ -1,50 +1,8 @@
-   26  git push
-   27  git pull
-   28  ls
-   29  conda activate dev
-   30  git add .
-   31  git commit -m "deleted a file"
-   32  cit push
-   33  git push
-   34  git pull
-   35  cd ..
-   36  cd Challenge_one/
-   37  git add .
-   38  git commit -m " changed some codes"
-   39  git push
-   40  cd ..
-   41  del samplestuff2
-   42  delete samplestuff2
-   43  rm samplestuff2
-   44  mrdir samplestuff2
-   45  rmdir samplestuff2
-   46  cd samplestuff2
-   47  ls
-   48  cd ..
-   49  rm -r samplestuff2
-   50  git pull
-   51  git clone https://github.com/trekj/Challenge_Two
-   52  ls
-   53  cd Challenge_Two/
-   54  ls
-   55  cd loan_qualifier_app/
-   56  ls
-   57  cd ..
-   58  cd ..
-   59  pip -v
-   60  pip freeze
-   61  ls
-   62  git clone https://github.com/trekj/Lessons-File-
-   63  ls
-   64  cd Lessons-File-/
-   65  git pull
-   66  ls
-   67  git pull
-   68  ls
-   69  git pull
-   70  ls
-   71  cd ..
-   72  ls
-   73  history 50 > terminal_history.txt
-   74  cd Challenge_Two/
-   75   history 50 > terminal_history.txt
+    1  git config --global user.name "JamesT"
+    2   git config --global user.name "JamesT"
+    3  git config --global user.name > JamesT
+    4  conda activate dev
+    5  cd desktop
+    6  ls
+    7  cd Challenge_Two/
+    8  history 50 > terminal_history.txt
