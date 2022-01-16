@@ -1,4 +1,4 @@
-# Qualifying Loans Application
+# Qualifying Loan Application
 
 This Python project is about generating qualifying reports from applicants by encoding personal finacial information through Command Line Interface, this then is being processed by comparing the encoded information against a criteria from a ratesheet from a list of lenders. An option is provided for the applicant to get a copy of the result in a spreadsheet format.
 ____
@@ -26,7 +26,7 @@ Before running the application first install the following dependencies.
 
 ## Usage
 After cloning the repository, run the program by typing ***python appy.py***. 
-You will be prompted to input various fiancial information ( See picture attached.)
+You will be prompted to input various fiancial information ( See sample picture attached.)
 
 ![appy](https://user-images.githubusercontent.com/93211640/149646920-fe62ac23-c46c-40e0-b662-686329e8cf07.jpeg)
 
